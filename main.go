@@ -31,8 +31,6 @@ func main() {
 
 	var ls = list.New(1, 2, 3, 4, 5)
 
-	flag.Parse()
-
 	ls.ForEach(func(el *int, i int) {
 		fmt.Printf("%d ", *el)
 	})
